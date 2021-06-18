@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <style>
+    .featurette-divider {
+      opacity: .25;
+      margin: 5rem 0;
+      height: 1px;
+    }
+
+    html {
+      font-size: 14px;
+    }
+
+    @media (min-width: 768px) {
+      html {
+        font-size: 16px;
+      }
+    }
+
+    .container {
+      max-width: 960px;
+    }
+
+    .pricing-header {
+      max-width: 700px;
+    }
+
+    .card-deck .card {
+      min-width: 220px;
+    }
+
+    main {
+      max-width: 1400px;
+    }
+
+    .bg-grey-2 {
+      background-color: rgba(0, 0, 0, .03);
+    }
+  </style>
+  <title>4K Filmes!</title>
+</head>
+
+<body class="bg-dark bg-gradient">
+  <div class="row justify-content-md-center">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light mb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-badge-4k-fill"
+            viewBox="0 0 16 16">
+            <path d="M3.577 8.9v.03h1.828V5.898h-.062a46.781 46.781 0 0 0-1.766 3.001z" />
+            <path
+              d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm2.372 3.715.435-.714h1.71v3.93h.733v.957h-.733V11H5.405V9.888H2.5v-.971c.574-1.077 1.225-2.142 1.872-3.202zm7.73-.714h1.306l-2.14 2.584L13.5 11h-1.428l-1.679-2.624-.615.7V11H8.59V5.001h1.187v2.686h.057L12.102 5z" />
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#top" selected>Lançamentos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#destaque" selected>Destaques</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#avaliacoes" selected>Avaliações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#entrevistas" selected>Entrevistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#novidades" selected>Novidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer" selected>Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><a class="dropdown-item" href="#">Aventura</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Ficção</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="pesquisar" placeholder="Procurar Filme" aria-label="Search" />
+            <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class=" text-light py-5 mt-5 ">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center my-3">Lançamentos</h1>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide py-2" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-md-center">
+              <div class="col-5">
+                <iframe width="588" height="336" src="https://www.youtube.com/embed/odM92ap8_c0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="col-4 mx-3">
+                <h1 class="text-center">Godzilla vs. Kong</h1>
+                <p>
+                  <b>Sinopse: </b>
+                  <span>As lendas se enfrentam em "Godzilla vs. Kong", quando esses adversários míticos se encontram em
+                    uma <span class="d-inline-block text-truncate" style="max-width: 350px;"> espetacular batalha, na
+                      qual o destino do mundo entrará em jogo. Kong e seus protetores embarcam em uma jornada perigosa
+                      para encontrar seu verdadeiro lar.</span> </span>
+                </p>
+                </p>
+                <div class="row">
+                  <div class="col-4"><b> Diretor: </b></div>
+                  <div class="col-4"><b> Roteiro: </b> </div>
+                  <div class="col-4"><b> Estreia: </b></div>
+
+                  <div class="col-4">Adam Wingard</div>
+                  <div class="col-4">Max Borenstein</div>
+                  <div class="col-4">25/03/2021</div>
+                </div>
+
+                <div class="row my-3">
+                  <div class="col my-auto">
+                    <b class="text-left">Elenco :</b>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      Kyle Chandler, Millie Bobby Brown, Alexander Skarsgård, Rebecca Hall, BrianTyree Henry, Shun Oguri
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mb-2 my-1">
+                  <div class="col-3 my-auto"><b> Avaliação:</b></div>
+                  <div class="col-8 my-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-md-center">
+              <div class="col-5">
+                <iframe width="588" height="336" src="https://www.youtube.com/embed/CVwG8htrRYI"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="col-4 mx-3">
+                <h1 class="text-center">Circulo de Fogo: A Revolta </h1>
+
+                <p>
+                  <b>Sinopse: </b>
+                  <span> Já se foram dez anos desde a Batalha na Fenda e os oceanos continuam estáveis, mas inquietos.
+                    Vindicado <span class="d-inline-block text-truncate" style="max-width: 350px;"> pela vitória na
+                      batalha, o programa Jaeger evoluiu para se tornar a força de defensa mais poderosa da história da
+                      humanidade. O PPDC agora seleciona os melhores e mais promissores para se tornar a nova geração de
+                      heróis. </span></span>
+                </p>
+                <div class="row">
+                  <div class="col-4"><b> Diretor: </b></div>
+                  <div class="col-4"><b> Roteiro: </b> </div>
+                  <div class="col-4"><b> Estreia: </b></div>
+                  <div class="col-4">Steven S. DeKnight</div>
+                  <div class="col-4">T.S. Nowlin</div>
+                  <div class="col-4">22/03/2021</div>
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-3 my-auto">
+                    <b class="text-left">Elenco :</b>
+                  </div>
+                  John Boyega, Scott Eastwood, Cailee Spaeny
+                </div>
+
+                <div class="row mb-2 my-1">
+                  <div class="col-3 my-auto"><b> Avaliação:</b></div>
+                  <div class="col-8 my-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z">
+                      </path>
+                    </svg>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-md-center">
+              <div class="col-5">
+                <iframe width="588" height="336" src="https://www.youtube.com/embed/YyGCwm3Fo8o"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="col-4 mx-3">
+                <h1 class="text-center">Evangelion 3.0+1.0</h1>
+
+                <p>
+                  <b>Sinopse: </b>
+                  <span>Shinji Ikari, a causa do Terceiro Impacto, ficou abandonado… Ele será capaz de se reconstruir? A
+                    animação <span class="d-inline-block text-truncate" style="max-width: 350px;">conta a continuação de
+                      uma história que está trancada desde o Evangelion 3.0 de 2012.</span> </span>
+                </p>
+                <div class="row">
+                  <div class="col-4"><b> Diretor: </b></div>
+                  <div class="col-4"><b> Roteiro: </b> </div>
+                  <div class="col-4"><b> Estreia: </b></div>
+
+                  <div class="col-4">Hideaki Anno</div>
+                  <div class="col-4">Hideaki Anno</div>
+                  <div class="col-4">08/04/2021</div>
+                </div>
+                <div class="row my-3">
+                  <div class="col-3 my-auto">
+                    <b class="text-left">Elenco :</b>
+                  </div>
+                  <div class="col-8">
+                    Megumi Ogata, Kotono Mitsuishi, Yuko Miyamura
+                  </div>
+                </div>
+                <div class="row mb-2 my-1">
+                  <div class="col-3 my-auto"><b> Avaliação:</b></div>
+                  <div class="col-8 my-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                      </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16"
+                      fill="currentColor" viewBox="0 0 16 16">
+                      <path
+                        d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br id="destaque" />
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h1 class="text-center my-3">Em Destaques</h1>
+          </div>
+          <div class="col-4">
+            <h1 class="text-center my-3">
+
+              <select class="form-select form-select-lg mb-3">
+                <option selected>Escolher Categoria</option>
+                <option value="1">Ação</option>
+                <option value="2">Aventura</option>
+                <option value="3">Romance</option>
+              </select>
+          </div>
+        </div>
+        <div class="card-deck text-center text-dark">
+          <div class="row gap-3">
+            <div class="card mb-4 shadow-sm col">
+
+              <div class="card-body">
+                <img src="https://br.web.img3.acsta.net/pictures/19/04/18/19/03/2204946.jpg" width="259.328" />
+              </div>
+              <div class="card-footer border mb-2">
+                <!-- 5 stars -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm col">
+
+              <div class="card-body">
+                <img src="https://i.pinimg.com/originals/4a/c5/d0/4ac5d03030e8f66dcf1c0f7a42e2e224.jpg"
+                  width="259.328" />
+              </div>
+              <div class="card-footer border mb-2">
+                <!-- 5 stars -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm col">
+
+              <div class="card-body">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/1/1a/Age_of_Extinction.jpg" width="259.328" />
+              </div>
+              <div class="card-footer border mb-2">
+                <!-- 5 stars -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                  class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star" viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="text-light text-end">
+            <button type="button" class="btn btn-outline-light btn-lg text-end">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+              </svg>
+              Carregar mais Filmes
+            </button>
+          </div>
+        </div>
+        <br id="avaliacoes">
+        <div class="row gap-3 py-5 ">
+          <h1 class="text-center">Ultimas avaliações</h1>
+          <div class="card col text-center bg-light text-dark py-2">
+            <div class="card-body">
+              <div class="feature-icon py-2">
+                <img class="rounded-circle" src="https://cdn.fakercloud.com/avatars/andrewcohen_128.jpg" width="140"
+                  height="140">
+              </div>
+              <b>Ricardo L.</b>
+              <p><small>18 de agosto de 2014 </small></p>
+              <h3>Godzilla The King of Monsters</h3>
+              <p>Um filme com suas qualidades, como os efeitos visuais muito bons, claro com algumas derrapadas, mas
+                nada
+                de mais, os monstros são sensacionais e as lutas idem, se falar no elenco que é ótimo.</p>
+            </div>
+            <div class="card-footer bg-light border">
+              <small><b>Avaliação : </b> </small>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z">
+                </path>
+              </svg>
+            </div>
+
+          </div>
+
+          <div class="card col text-center bg-light text-dark py-2">
+            <div class="card-body">
+              <div class="feature-icon  py-2">
+                <img class="rounded-circle" src="https://cdn.fakercloud.com/avatars/enda_128.jpg" width="140"
+                  height="140">
+              </div>
+              <b>RF R</b>
+              <p><small>26 de dezembro de 2018</small></p>
+              <h3>Bumblebee</h3>
+              <p>Muito bom, a ação é superior a outros da franquia, foi sensacional atuação de Stainfield como primeira
+                protagonista feminina na franquia, emocionado na despedida de Bee, os efeitos CGI são fenomenais, com
+                certeza segundo melhor da franquia, fiquei deslumbrado com o tom 80tista um charme de filme.</p>
+            </div>
+            <div class="card-footer bg-light border align-text-bottom">
+              <small><b>Avaliação : </b> </small>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                class="bi bi-star-half" viewBox="0 0 16 16">
+                <path
+                  d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+              </svg>
+            </div>
+          </div>
+          <div class="card col text-center bg-light text-dark py-2">
+            <div class="card-body">
+              <div class="feature-icon  py-2">
+                <img class="rounded-circle" src="https://cdn.fakercloud.com/avatars/mhesslow_128.jpg" width="140"
+                  height="140">
+              </div>
+              <b>Felipe L.</b>
+              <p><small>7 de outubro de 2019 </small></p>
+              <h3>Transformes a era da extinção</h3>
+              <p>Está incrível. Pela primeira vez, um filme da franquia tem uma história a ser contada além das
+                explosões.
+                Muito bom. É cheio de tramas e subtramas umas encobrindo as outras, requer bastante atenção, mas mesmo
+                assim, me surpreendeu. </p>
+            </div>
+            <div class="card-footer bg-light border align-text-bottom">
+              <small><b>Avaliação : </b> </small>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-warning" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                </path>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+        <div class="text-light text-end">
+          <button type="button" class="btn btn-outline-light btn-lg text-end">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            Carregar mais Avaliações
+          </button>
+        </div>
+        <br id="entrevistas">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center my-3">Entrevistas e Making Of</h1>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center text-dark">
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Godzilla 2.0</h4>
+              </div>
+              <div class="card-body">
+                <iframe width="260" src="https://www.youtube.com/embed/VWLi8PMfo_s" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <div class="row">
+                    <div class="col"><b> Diretor: </b> Michael Dougherty</div>
+                  </div>
+                  <div class="row">
+                    <div class="col"><b> Roteiro: </b> Max Borenstein</div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <b> Estreia: </b>  30/05/2019
+                    </div>
+                  </div>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Bumblebee</h4>
+              </div>
+              <div class="card-body">
+                <iframe width="260" src="https://www.youtube.com/embed/AzVLCk95tNQ" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <div class="row">
+                    <div class="col"><b> Diretor: </b> Travis Knight</div>
+                  </div>
+                  <div class="row">
+                    <div class="col"><b> Roteiro: </b> Christina Hodson</div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <b> Estreia: </b> 25/12/2018
+                    </div>
+                  </div>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Transformers 04</h4>
+              </div>
+              <div class="card-body">
+                <iframe width="260" src="https://www.youtube.com/embed/rub2MvGcJd4" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <div class="row">
+                    <div class="col"><b> Diretor: </b> Michael Bay</div>
+                  </div>
+                  <div class="row">
+                    <div class="col"><b> Roteiro: </b> Ken Nolan</div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <b> Estreia: </b> 20/07/2017
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-light text-end">
+          <button type="button" class="btn btn-outline-light btn-lg text-end">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            Carregar mais Entevistas
+          </button>
+        </div>
+        <br id="novidades">
+        <hr>
+
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center my-3">Novidades</h1>
+          </div>
+        </div>
+        <div class="row justify-content-md-center ">
+          <div class="col-6 my-3">
+            <h4> Novos teasers mostram cenas inéditas dos monstros duelando</h4>
+          </div>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <p class="lead my-auto">
+                Estamos a exatamente um mês do lançamento de Godzilla vs Kong nos cinemas e, enquanto isso Novidades vão
+                surgindo e deixando os fãs cada vez mais apreensivos. Agora, dois teasers foram lançados mostrando
+                algumas
+                cenas inéditas dos embates entre os monstros colossais e também explicando um pouco mais a respeito da
+                origem de cada um deles. Confira abaixo!
+              </p>
+            </div>
+            <div class="col-md-5 my-auto">
+              <img class="rounded"
+                src="https://cinemacomrapadura.com.br/imagens/2020/11/20201126-godzilla-kong-2021-sera.jpg" width="400">
+            </div>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="row justify-content-md-center ">
+          <div class="col-6 my-3">
+            <h4>Diretor de ‘Círculo de Fogo’ tinha planos em fazer um cross-over com Godzilla</h4>
+          </div>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <p class="lead my-auto">
+                Em algumas semanas, o mundo verá o retorno de Godzilla no aguardado ‘Godzilla vs. Kong’, que chegará à
+                plataforma da HBO Max e aos cinemas de todo o mundo em março.
+                Em seu Twitter oficial, DeKnight respondeu a perguntas de fãs e, quando questionado sobre um filme que
+                poderia unir ambas as sagas, ele confirmou que tinha o projeto em mente antes de tudo ir por água
+                abaixo.
+              </p>
+            </div>
+            <div class="col-md-5 my-auto">
+              <img class="rounded"
+                src="https://cinepop.com.br/wp-content/uploads/2021/02/circulo-de-fogo-godzilla-696x392.jpg"
+                width="400">
+            </div>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="row justify-content-md-center ">
+          <div class="col-6 my-3">
+            <h4>Transformers: Showrunner de ‘Os Defensores’ vai escrever o novo filme da franquia</h4>
+          </div>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <p class="lead my-auto">
+                A franquia ‘Transformers‘ acaba de ganhar novidades agora que a Paramount Pictures divulgou o nome do
+                roteirista e do diretor de um novo filme.
+                De acordo com o The Hollywood Reporter, o estúdio contratou Marco Ramirez para escrever o longa, que
+                terá a direção de Angel Manuel Soto (‘Charm Cuty Kings’).
+              </p>
+            </div>
+            <div class="col-md-5 my-auto">
+              <img class="rounded" src="https://cinepop.com.br/wp-content/uploads/2021/01/transformers-1-696x392.jpg"
+                width="400">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <br>
+        <div class="text-light text-end">
+          <button type="button" class="btn btn-outline-light btn-lg text-end">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            Carregar mais Noticias
+          </button>
+        </div>
+    </main>
+  </div>
+
+  <footer id="footer" class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <div class="row gap-4">
+        <div class="col">
+          <span class="text-muted">
+            <b>Sobre</b>
+            <p>
+              Somos um website de base de dados de informação sobre notícias, matérias sobre cinema, lançamentos,
+              catálogo geral de filmes, atores e diretores.
+            </p>
+          </span>
+        </div>
+        <div class="col">
+          <span class="text-muted mb-4"><b>Editorial</b></span>
+
+          <span class="text-muted">
+            <p>Redação: <small class="text-muted">Cardoso, Roberto</small></p>
+            <p>Pesquisa: <small class="text-muted">Cardoso, Roberto</small></p>
+            <p>Gerente Geral: <small class="text-muted">Cardoso, Roberto</small></p>
+          </span>
+
+        </div>
+        <div class="col">
+          <div class="row justify-content-md-center">
+            <span class="text-muted mb-4 text-center"><b>Siga-nos</b></span>
+            <div class="col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+              </svg>
+            </div>
+            <div class="col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+            </div>
+            <div class="col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+              </svg>
+            </div>
+            <div class="col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg>
+            </div>
+            <div class="col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitch"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+                <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center justify-content-md-center">
+        <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC MINAS</b></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

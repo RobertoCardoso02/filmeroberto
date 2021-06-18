@@ -1,0 +1,159 @@
+{
+    "filmes": [
+        {
+            "id": 1,
+            "src": "https://www.youtube.com/embed/odM92ap8_c0",
+            "sinopseInit": "As lendas se enfrentam em Godzilla vs. Kong, quando esses adversários míticos se encontram em uma",
+            "sinopseEnd": "espetacular batalha, na qual o destino do mundo entrará em jogo. Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar.",
+            "title": "Godzilla vs. Kong",
+            "diretor": "Adam Wingard",
+            "roteiro": "Max Borenstein",
+            "estreia": "25/03/2021",
+            "elenco": "Kyle Chandler, Millie Bobby Brown, Alexander Skarsgård, Rebecca Hall, BrianTyree Henry, Shun Oguri",
+            "class": "carousel-item active"
+        },
+        {
+            "id": 2,
+            "src": "https://www.youtube.com/embed/CVwG8htrRYI",
+            "sinopseInit": "Já se foram dez anos desde a Batalha na Fenda e os oceanos continuam estáveis, mas inquietos. Vindicado",
+            "sinopseEnd": "pela vitória na batalha, o programa Jaeger evoluiu para se tornar a força de defensa mais poderosa da história da humanidade. O PPDC agora seleciona os melhores e mais promissores para se tornar a nova geração de heróis.",
+            "title": "Circulo de Fogo: A Revolta",
+            "diretor": "Steven S. DeKnight",
+            "roteiro": "T.S. Nowlin",
+            "estreia": "22/03/2021",
+            "elenco": "John Boyega, Scott Eastwood, Cailee Spaeny",
+            "class": "carousel-item "
+        },
+        {
+            "id": 3,
+            "src": "https://www.youtube.com/embed/YyGCwm3Fo8o",
+            "sinopseInit": "Shinji Ikari, a causa do Terceiro Impacto, ficou abandonado… Ele será capaz de se reconstruir? A animação",
+            "sinopseEnd": "conta a continuação de uma história que está trancada desde o Evangelion 3.0 de 2012.",
+            "title": "Evangelion 3.0+1.0",
+            "diretor": "Hideaki Anno",
+            "roteiro": "Hideaki Anno",
+            "estreia": "08/04/2021",
+            "elenco": "Megumi Ogata, Kotono Mitsuishi, Yuko Miyamura",
+            "class": "carousel-item "
+        }
+    ],
+    "destaques": [
+        {
+            "id": 1,
+            "src": "https://br.web.img3.acsta.net/pictures/19/04/18/19/03/2204946.jpg",
+            "estrelas": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 2,
+            "src": "https://i.pinimg.com/originals/4a/c5/d0/4ac5d03030e8f66dcf1c0f7a42e2e224.jpg",
+            "estrelas": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "src": "https://upload.wikimedia.org/wikipedia/pt/1/1a/Age_of_Extinction.jpg",
+            "estrelas": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "avaliacao": [
+        {
+            "nome": "Ricardo L.",
+            "src": "https://cdn.fakercloud.com/avatars/andrewcohen_128.jpg",
+            "data": "18 de agosto de 2014",
+            "filme": "Godzilla The King of Monsters",
+            "descricao": "Um filme com suas qualidades, como os efeitos visuais muito bons, claro com algumas derrapadas, mas nada de mais, os monstros são sensacionais e as lutas idem, se falar no elenco que é ótimo.",
+            "avaliacao": [
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "nome": "RF R",
+            "src": "https://cdn.fakercloud.com/avatars/enda_128.jpg",
+            "data": "26 de dezembro de 2018",
+            "filme": "Bumblebee",
+            "descricao": "Muito bom, a ação é superior a outros da franquia, foi sensacional atuação de Stainfield como primeira protagonista feminina na franquia, emocionado na despedida de Bee, os efeitos CGI são fenomenais, com certeza segundo melhor da franquia, fiquei deslumbrado com o tom 80tista um charme de filme.",
+            "avaliacao": [
+                1,
+                1,
+                1,
+                1,
+                2
+            ]
+        },
+        {
+            "nome": "Felipe L.",
+            "src": "https://cdn.fakercloud.com/avatars/mhesslow_128.jpg",
+            "data": "7 de outubro de 2019",
+            "filme": "Transformes a era da extinção",
+            "descricao": "Está incrível. Pela primeira vez, um filme da franquia tem uma história a ser contada além das explosões. Muito bom. É cheio de tramas e subtramas umas encobrindo as outras, requer bastante atenção, mas mesmo assim, me surpreendeu.",
+            "avaliacao": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "makingOf": [
+        {
+            "title": "Godzilla 2.0",
+            "src": "https://www.youtube.com/embed/VWLi8PMfo_s",
+            "diretor": "Michael Dougherty",
+            "roteiro": "Max Borenstein",
+            "estreia": "30/05/2019"
+        },
+        {
+            "title": "Bumblebee",
+            "src": "https://www.youtube.com/embed/AzVLCk95tNQ",
+            "diretor": "Travis Knight",
+            "roteiro": "Christina Hodson",
+            "estreia": "25/12/2018"
+        },
+        {
+            "title": "Transformers 04",
+            "src": "https://www.youtube.com/embed/rub2MvGcJd4",
+            "diretor": "Michael Bay",
+            "roteiro": "Ken Nolan",
+            "estreia": "20/07/2017"
+        }
+    ],
+    "novidades": [
+        {
+            "titulo": "Novos teasers mostram cenas inéditas dos monstros duelando",
+            "src": "https://cinemacomrapadura.com.br/imagens/2020/11/20201126-godzilla-kong-2021-sera.jpg",
+            "descricao": "Estamos a exatamente um mês do lançamento de Godzilla vs Kong nos cinemas e, enquanto isso Novidades vão surgindo e deixando os fãs cada vez mais apreensivos. Agora, dois teasers foram lançados mostrando algumas cenas inéditas dos embates entre os monstros colossais e também explicando um pouco mais a respeito da origem de cada um deles. Confira abaixo!"
+        },
+        {
+            "titulo": "Diretor de ‘Círculo de Fogo’ tinha planos em fazer um cross-over com Godzilla",
+            "src": "https://cinepop.com.br/wp-content/uploads/2021/02/circulo-de-fogo-godzilla-696x392.jpg",
+            "descricao": "Em algumas semanas, o mundo verá o retorno de Godzilla no aguardado ‘Godzilla vs. Kong’, que chegará à plataforma da HBO Max e aos cinemas de todo o mundo em março. Em seu Twitter oficial, DeKnight respondeu a perguntas de fãs e, quando questionado sobre um filme que poderia unir ambas as sagas, ele confirmou que tinha o projeto em mente antes de tudo ir por água abaixo."
+        },
+        {
+            "titulo": "Transformers: Showrunner de ‘Os Defensores’ vai escrever o novo filme da franquia",
+            "src": "https://cinepop.com.br/wp-content/uploads/2021/01/transformers-1-696x392.jpg",
+            "descricao": "A franquia ‘Transformers‘ acaba de ganhar novidades agora que a Paramount Pictures divulgou o nome doroteirista e do diretor de um novo filme. De acordo com o The Hollywood Reporter, o estúdio contratou Marco Ramirez para escrever o longa, que terá a direção de Angel Manuel Soto (‘Charm Cuty Kings’).",
+            "last": true
+        }
+    ]
+}
